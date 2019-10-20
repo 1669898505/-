@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-size: 16px;
+	color: #0013ED;
+}
+h1{
+	align-content: center;
+	font-family: 方正姚体,黑体,宋体;
+	font-size: 20px;
+	font-weight: 800;
+}
+h2{
+	font-family: 黑体;
+ 	font-size: 16px;
+	font-weight: normal;
+	color: #099;
+}
+.nav{
+	background-color: #9f0;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	font-size: 18px;
+}
+.copyright{
+	text-align: center;
+	margin-bottom: 10px;	
+}
+.san{
+	width: 1px;
+	height: 1px;
+	margin: 10px 0;
+	border:20px solid red;
+	color:#717171;
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+}
+#hoho{
+	min-resolution: 700px;
+	
+}
