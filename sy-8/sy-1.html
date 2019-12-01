@@ -1,0 +1,187 @@
+  
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy8-1</title>
+<style>
+	body{
+		color: white;
+		background-color:aqua;
+	}
+	.center{
+		text-align: center;
+	}
+	.form{
+		margin: auto;
+		position: absolute;
+		top: 50px;
+ 		left: 0px;
+		bottom: 0;
+		right: 0px;
+	}
+	table{
+		border-spacing: 15px;
+	}
+	.continer{
+		position: relative;
+		width: 650px;
+		height: 800px;
+		border: 1px solid black;
+		margin: 50px auto;
+		background-color: #313030;
+	}
+	h2{
+		position: absolute;
+		top: 20px;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		text-align: center;
+		font-weight: normal;
+		font-family:"黑体";
+		font-size:20px;
+	}
+	fieldset{
+		margin:40px;
+		font-weight: normal;
+		font-family:"黑体";
+		font-size:15px;
+	}
+	.first{
+		font-weight: normal;
+		font-family:"黑体";
+		font-size:14px;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="continer">
+		<h2>增加快递信息</h2>
+		<form class="form">
+			<fieldset>
+				<legend>发货单</legend>
+				<table>
+					<tbody>
+						<tr>
+							<td class="first">发货人：</td>
+							<td>
+								<input type="text" name="shipper">
+							</td>
+							<td class="first">地址：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+						</tr>
+						<tr>
+							<td class="first">电话：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+							<td class="first">邮箱：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+
+			<fieldset>
+				<legend>收货单</legend>
+				<table>
+					<tbody>
+						<tr>
+							<td class="first">收货人：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+							<td class="first">地址：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+						</tr>
+						<tr>
+							<td class="first">电话：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+							<td class="first">邮箱：</td>
+							<td class="second">
+								<input type="text" name="shipper">
+							</td>
+						</tr>
+						<tr>
+							<td class="first">地区：</td>
+							<td colspan="3">
+								<select>
+									<option value="bj" selected>西安</option>
+									<option value="tj">天津</option>
+									<option value="hb">河北</option>
+									<option value="hn">河南</option>
+									<option value="zj">浙江</option>
+									<option value="js">江苏</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="first">包装：</td>
+							<td colspan="3">
+								<label><input name="zx" type="checkbox" value="" />纸箱 </label>
+								<label><input name="mx" type="checkbox" value="" />木箱 </label>
+								<label><input name="kdd" type="checkbox" value="" />快递袋 </label>
+								<label><input name="others" type="checkbox" value="" />其它 </label>
+							</td>
+							</td>
+						</tr>
+						<tr>
+							<td class="first">付款方式：</td>
+							<td colspan="3">
+								<label><input name="zx" type="radio" value=""/>现金 </label>
+								<label><input name="mx" type="radio" value=""/>微信 </label>
+								<label><input name="kdd" type="radio" value=""/>支付宝 </label>
+							</td>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+
+			<fieldset>
+				<legend>货物信息</legend>
+				<table>
+					<tbody>
+						<tr>
+							<td>货物名称：</td>
+							<td colspan="6">
+								<input type="text" name="shipper" size="60">
+							</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td class="first">数量：</td>
+							<td class="second">
+								<input type="text" name="shipper" size="3">
+							</td>
+							<td class="first">重量：</td>
+							<td class="second">
+								<input type="text" name="shipper" size="3">
+							</td>
+							<td class="first">发货时间：</td>
+							<td class="second">
+								<input type="text" name="shipper" size="10">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+			<div class="center">
+				<input type="button" value="确定">
+				<input type="button" value="取消">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
